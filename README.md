@@ -99,6 +99,28 @@ Core experimentation and analysis are captured in Jupyter notebooks (typically s
 
 ```
 .
+├── AGILE_work_details/
+│   ├── Agile_Template_v0.1.xlsm
+│   ├── Defect_Trackerv0.1.xlsx
+│   ├── Unit_Test_Plan_v0.1.xlsx
+├── Data/
+│   ├── processed/
+│   ├── raw/
+├── Models/
+│   ├── active_users_forecasting_models/
+│   ├── cpu_forecasting_models/
+│   ├── storage_forecasting_models/
+├── Notebookss/
+│   ├── Milestone_01_ Data_cleaning.ipynb
+│   ├── Milestone_01_Basic_Exploratory_Analysis_and_Visualization.ipynb
+│   ├── Milestone_02_Feature_Engineering.ipynb
+│   ├── Milestone_03_modeling.ipynb
+│   ├── Milestone_04_Forecast_Integration_&_Capacity_Planning.ipynb
+├── Reports/
+│   ├── Milestone_01_report.md
+│   ├── Milestone_02_report.md
+│   ├── Milestone_03_report.md
+│   ├── Milestone_04_report.md
 ├── Project/                  # Frontend (Next.js)
 │   ├── app/                 # App router
 │   ├── components/          # Reusable components
@@ -109,6 +131,7 @@ Core experimentation and analysis are captured in Jupyter notebooks (typically s
 │   ├── app.py              # Main application
 │   └── requirements.txt     # Python dependencies
 ├── .gitignore
+├── LICENSE.txt
 └── README.md
 ```
 

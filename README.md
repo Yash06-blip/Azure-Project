@@ -2,6 +2,23 @@
 
 A modern web application for demand forecasting and capacity optimization, built with Next.js, React, and Python.
 
+## 📌 Project Context (Internship Milestones)
+
+This project was developed as part of the Infosys Springboard Azure virtual internship.  
+The work is organized across four milestones:
+
+- **Milestone 1 – Data Cleaning & EDA**  
+  Cleaned and merged raw Azure usage and external factor data into `cleaned_merged.csv`, performed basic exploratory analysis and visualizations, and exposed initial dummy REST APIs for the dashboard.
+
+- **Milestone 2 – Feature Engineering & Advanced EDA**  
+  Created time‑based, lag, rolling, and derived features (e.g., utilization ratio, storage efficiency), produced `feature_engineered.csv`, analyzed correlations and patterns, and added APIs to serve feature‑engineered data and insights.
+
+- **Milestone 3 – Modeling & Forecasting**  
+  Trained and evaluated multiple models (ARIMA/SARIMA, gradient boosting models such as LightGBM/XGBoost, and LSTM) using time‑based splits and rolling backtesting, computed MAE/RMSE/MAPE, and prepared model‑serving forecast endpoints.
+
+- **Milestone 4 – Deployment, Capacity Planning & UI**  
+  Deployed the final forecasting model via Python backend APIs, implemented a capacity‑planning engine (forecast vs available capacity with scale‑up/scale‑down recommendations), added monitoring/retraining logic, and built this Next.js dashboard UI that consumes those APIs.
+
 ## 🚀 Features
 
 - **Demand Forecasting**: Predict future demand using advanced algorithms
@@ -9,6 +26,16 @@ A modern web application for demand forecasting and capacity optimization, built
 - **Interactive Dashboard**: Visualize data with beautiful charts and metrics
 - **Responsive Design**: Works on desktop and mobile devices
 - **Modern UI/UX**: Built with Radix UI and Tailwind CSS
+
+## 🧪 Notebooks & Analysis
+
+Core experimentation and analysis are captured in Jupyter notebooks (typically stored under `Notebooks/` & `Reports/`):
+
+- `Milestone_01_-Data_cleaning.ipynb` – Data cleaning, merging, and basic exploratory analysis  
+- `Milestone_01_Basic_Exploratory_Analysis_and_Visualization.ipynb` – Initial visual insights and usage patterns  
+- `Milestone_02_Feature_Engineering.ipynb` – Feature engineering and advanced EDA  
+- `Milestone_03_modeling.ipynb` – Model training, evaluation, and backtesting  
+- `Milestone_04_Forecast_Integration_-_Capacity_Planning.ipynb` – API integration, capacity planning, and deployment logic
 
 ## 🛠️ Tech Stack
 
